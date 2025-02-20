@@ -1,0 +1,144 @@
+/* Fonte Utilazada */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    font-family: "Noto Sans", sans-serif ;
+    margin: 0 auto;
+    padding: 10px;
+}
+/* MENU*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;  
+    padding: 0 20px; 
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.sp > h1{
+    gap: 7px;
+    display: flex;
+    line-height: 20px;
+    font-size: 20px;
+}
+#logo {
+    width: 50px;  
+    height: auto;
+}
+li{
+    display: inline-block;
+    margin: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(254, 0, 0);
+    transition: 0.3s all;
+}
+
+
+
+#Inscreva-se-btn{
+    border: 2px solid rgb(254, 0, 0);
+    padding: 10px;
+    border-radius: 13px;
+}
+#Inscreva-se-btn:hover{
+    background-color: rgb(254, 0, 0);
+    color: white;
+}
+/*FIM MENU*/
+/*MAIN*/
+h1{
+    font-size: 3vw;
+    font-weight: 200;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;  
+    max-width: 1700px;  
+    justify-content: center;  
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+span{
+    color: rgb(254, 0, 0);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: "Noto Sans", sans-serif;
+}
+/*Imagem*/
+#images {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 90%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0) 90%);
+    width: 600px;
+}
+
+img{
+    width: 600px;
+/* FORMULARIO*/    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(254, 0, 0);
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+form [type="submit"]:hover{
+    color: black;
+    transition: 0.3s all;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+/* Rodape da pagina*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+
+    text-align: center;
+}
